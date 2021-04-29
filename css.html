@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CSS PRACTICE</title>
+    <!--THIS IS EXTERNAL CSS, SPECIFIED IN THE HEADER WITH THE <link> TAG-->
+    <link rel="stylesheet" href="CSS/Style.css">
+
+
+    <!--THIS IS INTERNAL CSS, SPECIFIED IN THE HEADER PER BELOW STARTING AND ENDING WITH THE <style> TAG
+   
+   
+   
+     <style>
+        div{
+            width: 600px;
+            background-color: darkred;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        H3, p{
+            color: white;
+        }
+    </style>
+
+-->
+        
+</head>
+<body>
+
+    <!--THIS IS INLINE CSS STYLING, TAKES PRESEDENCE OVER INTERNAL CSS-->    
+<div 
+    style="width: 500px; background-color: teal; font-family: sans-serif;" >
+    <H3 style="color:white;">Welcome to CSS</H3>
+
+    <p style="color:white;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Sequi eum necessitatibus maxime animi facere minima aperiam 
+        voluptatem rem explicabo laboriosam quae id aliquam, 
+        consequatur officiis non quos? Aliquam, voluptates aspernatur?
+    </p>
+</div>
+
+<!--THIS IS INTERNAL/external CSS-->
+<div>
+    <H3>Welcome to CSS</H3>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Sequi eum necessitatibus maxime animi facere minima aperiam 
+        voluptatem rem explicabo laboriosam quae id aliquam, 
+        consequatur officiis non quos? Aliquam, voluptates aspernatur?
+    </p>
+</div>
+
+<!--THIS IS TARGRETING ELEMENTS in CSS YOU HAVE TO GIVE EACH ELEMENT AN ID-->
+<div id="box">
+    <H3>Welcome to CSS</H3>
+
+    <p class="box-text">
+        <span>Lorem ipsum dolor</span> sit amet consectetur adipisicing elit. 
+        Sequi eum necessitatibus maxime animi facere minima aperiam 
+        voluptatem rem explicabo laboriosam quae id aliquam, 
+        consequatur officiis non quos? Aliquam, voluptates aspernatur?
+    </p>
+    <p class="box-text2"> 
+        <span> ipsum dolor sit</span> amet consectetur adipisicing elit. 
+        Sequi eum necessitatibus maxime animi facere minima aperiam 
+        voluptatem rem explicabo laboriosam quae id aliquam, 
+        consequatur officiis non quos? Aliquam, voluptates aspernatur?
+    </p>
+    <p class="box-text">
+        <span>Lorem ipsum dolor</span> sit amet consectetur adipisicing elit. 
+        Sequi eum necessitatibus maxime animi facere minima aperiam 
+        voluptatem rem explicabo laboriosam quae id aliquam, 
+        consequatur officiis non quos? Aliquam, voluptates aspernatur?
+    </p>
+</div>
+
+</body>
+</html>

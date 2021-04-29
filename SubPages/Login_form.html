@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn Form</title>
+</head>
+<body>
+    <a href="../index.html">Home</a>
+    <hr>
+
+    <!--Look in the form header which refernces the on submit what functions hosuld run.-->
+    <form name="myform" onsubmit="runMe(); return false">
+
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td>
+                    <input type="text" name="u_name" required oninput="u_namevalidation();">
+                </td>
+                <td id="message"></td>
+            </tr>
+        
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="password" name="u_pass" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="x_submit" value="Lets Get Going">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="../js/login_form.js"></script>
+
+
+</body>
+</html>

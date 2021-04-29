@@ -1,0 +1,252 @@
+body{
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+
+.Container{
+    width: 1000px;
+    height: auto;
+    background-color:white;
+    margin: auto;
+}
+
+.home-logo{
+    float:left;
+    padding: 0px 0px 5px 25px;
+    height: 150px;
+}
+
+.home-search{
+    float: right;
+    padding: 25px 15px 0px 0px;
+   
+}
+
+.clearfix{
+    clear:both
+
+}
+
+/*NAVIGATION BAR*/
+
+.home-nav{
+    background-color: darkgreen;
+}
+
+.home-nav > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none;
+}
+
+.home-nav > ul > li{
+    display: inline-block;
+}
+
+.home-nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.home-nav > ul > li >a:hover{
+    background-color: orange;
+}
+
+.home-nav-services-drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display:none;
+    z-index: 999;
+}
+
+.home-nav-services-drop >li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;  
+    background-color: black;
+}
+
+.home-nav-services-drop >li > a:hover{
+    background-color: orange;
+}
+
+
+.home-nav > ul > li:hover .home-nav-services-drop{
+    display: block;
+}
+
+/*BANNER*/
+
+.home-banner{
+    width: 1000px;
+    height: 192px;
+    overflow: hidden;
+}
+
+.home-banner img{
+    width: 100%;
+    height: auto;
+}
+
+/*CONTENT*/
+
+.home-content-holder{
+    background-color: darkgreen;
+}
+
+.home-content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+
+.home-content h1{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+.home-content p{
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.home-content-sidebar{
+    float: left;
+    padding: 50px 25px 25px 25px;
+}
+
+.home-content-sidebar h3{
+    font-family: sans-serif;
+    font-size: 1em; 
+    color: white;
+
+}
+
+.home-content-sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+.home-content-sidebar ul > li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.home-footer{
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 0px 25px 0px 25px;
+}
+
+.home-footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+
+.home-footer-box >ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;  
+}
+
+.home-footer-box  ul  li a{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.home-footer-box address p{
+    font-size: small;
+}
+
+.home-footer-box address a{
+    
+    color: teal;
+}
+
+.home-footer-cr{
+    font-family: sans-serif;
+    padding: 15px;
+    text-align: center;
+    background-color:darkred;
+    color: white;
+}
+.home-footer-cr p{
+    margin: 0px;
+    font-size: small;
+}
+
+.home-content img{
+    max-width: 100%;
+}
+
+.products-content-product{
+    margin-bottom: 20px;
+}
+
+.products-content-product{
+    width: 211.33px;
+    height: auto;
+    float: left;
+    border:1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.products-content-product-caption p{
+    font-weight: bold;
+
+}
+
+.products-content-product-caption del{
+    color: red;
+}
+
+.p2{
+    color: green;
+}
+
+.products-content-product-caption a{
+    display: block;
+    background-color: darkgreen;
+    padding: 8px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
+
+
+.products-content-product-caption a:hover{
+    background-color: orange;
+}
+
+.home-banner iframe{
+    width: 100%;
+    height: 192px;
+}
+
